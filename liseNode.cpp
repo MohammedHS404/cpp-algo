@@ -9,11 +9,13 @@ ListNode *createList(int arr[], int n)
     }
     ListNode *head = new ListNode(arr[0]);
     ListNode *curNode = head;
+
     for (int i = 1; i < n; i++)
     {
         curNode->next = new ListNode(arr[i]);
         curNode = curNode->next;
     }
+    
     return head;
 }
 
@@ -25,4 +27,5 @@ void printList(ListNode *head)
         std::cout << curNode->val << " ";
         curNode = curNode->next;
     }
+    std::cout << std::endl;
 }
