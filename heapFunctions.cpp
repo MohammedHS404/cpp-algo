@@ -1,6 +1,6 @@
 #include <iostream>
 #include "./HeapElement.h"
-#include "./heap.h"
+#include "./heapFunctions.h"
 
 template <typename T>
 void HeapSort(HeapElement<T> arr[], int n, bool isMax)
