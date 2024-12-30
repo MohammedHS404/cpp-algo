@@ -1,7 +1,6 @@
 #include <iostream>
 #include "queue"
 
-
 struct TreeNode
 {
     int val;
@@ -13,7 +12,6 @@ struct TreeNode
     TreeNode *CreateBinaryTree(int arr[], int n);
     void PrintTree(TreeNode *root);
 };
-
 
 main()
 {
